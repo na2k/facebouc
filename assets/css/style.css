@@ -1,0 +1,211 @@
+/*font
+
+font-family: 'Glegoo', serif;
+
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    overflow:hidden;
+}
+
+header{
+  width: 100vw;
+  height: 46px;
+  position: fixed;
+  z-index: 1;
+  background: rgb(0,113,188);
+}
+
+div.container{
+  width: 1200px;
+  max-width: 1200px;
+  min-width: 980px;
+  margin: auto;
+}
+
+img.position{
+  margin-right: 242px;
+  float: left;
+}
+
+section.slide{
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0,113,188);
+}
+
+figure.animate{
+  padding-top: 195px;
+  margin: auto;
+  width: 300px;
+  height: 400px;
+}
+article.visu{
+  background: url(../img/people.png) 0 0 no-repeat fixed;
+  width: auto;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  padding-top: 56px;
+}
+
+h1, h2, h3{
+  font-size: 53px;
+  color:snow;
+  text-align: center;
+  font-family: 'Glegoo', serif;
+}
+
+hr{
+  border: 3px solid rgb(0,113,188);
+  width: 46px;
+  margin: auto;
+}
+/*nav début*/
+nav{
+  width: 600px;
+  height: 46px;
+  float: left;
+}
+
+nav ul li{
+  list-style: none;
+  float: left;
+  display: block;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  width: 120px;
+}
+
+nav ul li a{
+  font-family: 'Glegoo', serif;
+  color: snow;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover{
+  color: lightgray;
+  border-bottom: 3px solid lightgray;
+  transition: 1s;
+}
+/*nav fin*/
+p.people{
+  font-family: 'Glegoo', serif;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+
+section.eco{
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 56px;
+}
+
+article.vu{
+  width: 1080px;
+  height: auto;
+  margin: auto;
+}
+/*réglage des 3 img en même temps*/
+figure.mission{
+  height: 390px;
+  width: 160px;
+  float: left;
+  margin: 60px 200px 0px 0px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+p.zone{
+  font-family: 'Glegoo', serif;
+  color: snow;
+  font-size: 14px;
+  width: 160px;
+  padding-top: 20px;
+}
+
+article.visu2{
+  background: url(../img/equipe.jpg) 0 0 no-repeat fixed;
+  width: auto;
+  height: 100vh;
+  max-width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  padding-top: 56px;
+}
+
+div.contain{
+  width: 1000px;
+  height: auto;
+  margin: 200px auto;
+  background: orange;
+}
+
+div.conso{
+  width: 480px;
+  height: 250px;
+  background: rgba(255,255,255,.8);
+  border-radius: 10px;
+  float: left;
+  overflow: auto;
+  color: gray;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+  font-family: 'Glegoo', serif;
+}
+
+#space{
+  margin-right: 40px;
+}
+div.prevu{
+  display: inline-block;
+  width: 196px;
+  height: 210px;
+  position: relative;
+  background: gray;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -moz-transform: scale(1);
+  transition: all 500ms ease-in;
+  -ms-transition: all 500ms ease-in;
+  -webkit-transition: all 500ms ease-in;
+  -o-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  filter: grayscale(1);
+}
+
+div.prevu:hover{
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  filter: grayscale(0);
+  box-shadow: 0px 0px 150px black;
+  background: red;
+  z-index: 2;
+}
+
+#pictures{
+  margin: 20px auto;
+  width: 700px;
+  text-align: center;
+}
